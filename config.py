@@ -6,4 +6,9 @@ FB_VERIFY_TOKEN = 'repairfix123'
 
 ADMIN_IDS = os.getenv('ADMIN_IDS', '5006092089').split(',')
 
-LANG_COMMANDS = ['/lang', '/language', 'мова', 'язык', 'język']
+PROXIES = {
+    'http': 'http://proxy.server:3128',
+    'https': 'http://proxy.server:3128'
+}
+
+DB_PATH = '/home/smertnik/bot/bot.db'
